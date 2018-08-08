@@ -1,5 +1,8 @@
 # Pukiwiki2md
 
+[![Build Status](https://travis-ci.org/sunaot/pukiwiki2md.svg?branch=master)](https://travis-ci.org/sunaot/pukiwiki2md)
+[![Coverage Status](https://coveralls.io/repos/github/sunaot/pukiwiki2md/badge.svg?branch=master)](https://coveralls.io/github/sunaot/pukiwiki2md?branch=master)
+
 Pukiwiki2md is a PEG (Parsing Expression Grammar) implementation of PukiWiki parser and transforms PukiWiki notation to Markdown notation. You can use it as a converter with a little code as follows:
 
 ## Usage
