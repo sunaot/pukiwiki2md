@@ -14,6 +14,65 @@ tree = parser.parse(wiki_text)
 markdown_text = transform.apply(tree)
 ```
 
+## Supporting PukiWiki notations
+
+https://pukiwiki.osdn.jp/?FormattingRules
+
+### ブロック要素
+
+- 段落
+- 引用文
+- リスト構造 (一部非対応)
+- 整形済みテキスト
+- 表組み (一部非対応)
+- 見出し
+- 水平線
+- 行間空け
+- 添付ファイル・画像の貼り付け (一部非対応)
+
+### インライン要素
+
+- 文字列
+- 改行
+- 強調・斜体
+- 取消線
+- 注釈
+- 添付ファイル・画像の貼り付け (一部非対応)
+- ページ名 (一部非対応)
+- InterWiki (一部非対応)
+- リンク
+- エイリアス (一部非対応)
+
+## Non-supporting PukiWiki notations
+
+https://pukiwiki.osdn.jp/?FormattingRules
+
+### ブロック要素
+
+- CSV形式の表組み
+- 目次
+- 左寄せ・センタリング・右寄せ
+- テキストの回り込みの解除
+- フォーム
+
+### インライン要素
+
+- 文字サイズ
+- 文字色
+- ルビ構造
+- アンカーの設定
+- カウンタ表示
+- オンライン表示
+- バージョン表示
+- タブコード
+- ページ名置換文字
+- 日時置換文字
+- 文字参照文字
+- 数値参照文字
+
+### その他
+
+- コメント行
 
 ## Contributing
 
